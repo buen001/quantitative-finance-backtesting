@@ -1,20 +1,20 @@
-# 🎓 Análise de Ativos e Estratégias Quantitativas com Python
+# 📈 Estratégia Quantitativa: Cruzamento de Médias Móveis (SMA)
 
-[cite_start]Este projeto desenvolve uma análise completa de ativos financeiros, utilizando o cruzamento de médias móveis para validar estratégias de investimento[cite: 7, 26].
+Este projeto foi desenvolvido para a disciplina de **Análise de Ativos e Finanças Quantitativas**. Ele consiste em um framework para backtesting de estratégias de investimento utilizando Python e a biblioteca Plotly para visualizações interativas.
 
-## 📌 Sobre o Projeto
-[cite_start]O objetivo é modelar séries temporais financeiras para identificar tendências de mercado[cite: 14, 15]. [cite_start]A aplicação utiliza dados reais para realizar cálculos estatísticos e visualizações gráficas de alta fidelidade[cite: 8, 9, 10].
+## 🚀 Funcionalidades
+- **Coleta de Dados Automática**: Integração com a API do Yahoo Finance via `yfinance`.
+- **Backtesting Realista**: Simulação com custos de transação (0.1%) aplicados em escala logarítmica.
+- **Análise de Risco**: Cálculo de Sharpe Ratio e Maximum Drawdown (MDD).
+- **Dashboard Interativo**: Gráficos multi-camadas comparando a estratégia com o modelo Buy & Hold.
 
-## 🛠️ Metodologia Aplicada
-[cite_start]Seguindo o plano metodológico estabelecido[cite: 30]:
-1. [cite_start]**Coleta de Dados**: Integração com a API `yfinance`[cite: 31].
-2. [cite_start]**Cálculo de Retornos**: Utilização de **Retorno Logarítmico** para garantir aditividade temporal[cite: 20, 21].
-3. [cite_start]**Indicadores**: Implementação de **Médias Móveis Simples (SMA)** de curto e longo prazo[cite: 23, 24].
-4. [cite_start]**Estratégia**: Lógica de cruzamento (*Golden Cross* e *Death Cross*) para sinais de compra e venda[cite: 27, 28, 34].
-5. [cite_start]**Backtesting**: Simulação realística com custos de transação e análise de risco (**Drawdown**)[cite: 35].
+## 🛠️ Tecnologias Utilizadas
+- Python 3.x
+- Pandas & Numpy (Processamento de dados)
+- Plotly (Visualização de dados)
+- YFinance (Dados do mercado financeiro)
 
-## 🚀 Como Executar
-1. Clone este repositório.
-2. Instale as bibliotecas necessárias:
+## 📊 Como Executar
+1. Instale as dependências:
    ```bash
-   pip install pandas numpy plotly yfinance
+   pip install -r requirements.txt
